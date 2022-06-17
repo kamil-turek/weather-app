@@ -10,7 +10,6 @@ const wind = document.getElementById("wind");
 const pressure = document.getElementById("pressure");
 const humidity = document.getElementById("humidity");
 const cloudiness = document.getElementById("cloudiness");
-let coords = [];
 
 inputCity.focus();
 
