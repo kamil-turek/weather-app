@@ -24,6 +24,7 @@ body {
   display: flex;
   align-items: center;
   position: relative;
+  animation: loading 2s;
 }
 
 .input {
@@ -62,6 +63,7 @@ body {
   border-radius: 10px;
   display: grid;
   padding: 5rem;
+  animation: loading 2s;
 }
 
 .main-weather {
@@ -92,4 +94,16 @@ body {
 
 .additional {
   font-size: 1.6rem;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
